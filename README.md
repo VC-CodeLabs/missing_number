@@ -26,7 +26,7 @@ All elements in the array are distinct.
 The array elements are in no particular order.
 You should aim for an efficient solution.
 The solution should not rely on sorting the array.
-Avoid using built-in functions that directly solve the problem (e.g., in Python, avoid using sum(arr) directly).
+Do not use built-in functions that directly solve the problem (e.g., in Python, avoid using sum(arr) directly).
 
 
 📤 Submission Guidelines
