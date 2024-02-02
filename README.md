@@ -3,7 +3,7 @@ Find The Missing Number
 
 Problem Statement:
 
-You are given an array containing n - 1 integers. These integers will range from 1 to n. No duplicates are in the list, and one integer from the range is missing. Your task is to create a solution that finds the missing integer within the constraints that are provided.
+You are given an array containing n - 1 integers. These integers will range from 1 to n; if ordered, they will be sequential (try to solve the challenge without sorting the numbers). No duplicates are in the list, and one integer from the range is missing. Your task is to make a solution that finds the missing integer within the provided constraints.
 
 Examples:
 Input: [3, 7, 1, 2, 8, 4, 5]
