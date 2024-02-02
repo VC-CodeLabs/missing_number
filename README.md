@@ -44,4 +44,4 @@ Code Elegance (Tiebreaker): In the event of a tie in execution time, the solutio
 
 
 🕒 Submission Deadline: 
-All email solutions or merge requests must be submitted by Sunday 11:59:59 PM.
+All email solutions or merge requests must be submitted by Sunday 23:59:45.
