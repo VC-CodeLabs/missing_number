@@ -3,8 +3,7 @@
 #define SIZEOF(a) sizeof(a)/sizeof(*a)
 
 int missing_number(int nums[], int len) {
-  int a = nums[0], b = nums[0], c = 0;
-  int si = sizeof(nums) / 2;
+  int a = nums[0], c = 0;
   for (int i = 0; i < len; i++) {
     if (nums[i] < a) {
       a = nums[i];
