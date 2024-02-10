@@ -10,7 +10,7 @@ int missing_number(int nums[], int len) {
     }
     sum += nums[i];
   }
-  return ((2 * min + len) * (len + 1) / 2 - sum);
+  return (2 * min + len) * (len + 1) / 2 - sum;
 }
 
 int main(void) {
