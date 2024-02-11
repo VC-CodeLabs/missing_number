@@ -13,7 +13,6 @@ int main(int argc, char **argv)
         printf("input array only has one element\n");
     } else {
         int sum = 0;
-        int expected_sum = 0;
         int min = input_array[0];
         int max = input_array[0];
 
@@ -27,8 +26,8 @@ int main(int argc, char **argv)
             }
         }
 
-        expected_sum = (num_elements + 1) * (min + max) / 2;
-        printf("missing number: %d\n", expected_sum - sum);
+        int missing_number = ((num_elements + 1) * (min + max) / 2) - sum;
+        printf("missing number: %d\n", missing_number);
     }   
     return 0;
 }
